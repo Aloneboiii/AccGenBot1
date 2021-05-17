@@ -1,0 +1,6 @@
+python-decouple
+telethon
+redis
+requests
+faker
+pyrogram
