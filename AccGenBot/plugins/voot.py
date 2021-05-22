@@ -18,7 +18,7 @@ async def _(event):
        await event.reply(f"**Heya {event.sender.first_name}, join my channel to use me!**", buttons=join)
        return
    gen = await event.reply("`Generating Account Pls weit`")
-   with open("netflix.txt") as Alain:
+   with open("voot.txt") as Alain:
      noice = Alain.read().splitlines()
      nice = random.choice(noice)
      email, pas = nice.split(":")
