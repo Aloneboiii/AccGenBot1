@@ -20,10 +20,10 @@ async def _(event):
        return
    gen = await event.reply("`Generating Account Pls weit`")
    with open("netflix.txt") as Alain:
-       noice = Alain.read().splitlines()
-       nice = random.choice(noice)
-       email, pass = nice.split(":")
-   okay = f"""**Account Generated Successfully**"
+     noice = Alain.read().splitlines()
+     nice = random.choice(noice)
+     email, pass = nice.split(":")
+   okay = f"""**Account Generated Successfully**
 **Type:** `Netflix`
 **Combo:** `{email}`:`{pass}`
 **Email:** **{email}**
