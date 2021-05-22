@@ -6,6 +6,7 @@ from vars import var
 
 USERNAME = var.CHANNEL_USERNAME
 CHANNEL = var.CHANNEL_URL
+#
 LOGS = var.LOGS
 
 bot = BotzCity
