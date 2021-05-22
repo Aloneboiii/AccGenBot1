@@ -12,3 +12,21 @@
 **AccGenBot -** `A simple bot to generate Account made by`[`@BotzCity`](https://telegram.me/BotzCity)
 
 **Deploy -** [`Deploy to heroku`](https://heroku.com/deploy?template=https://GitHub.com/BotzCity/AccGenBot)
+
+## Vars
+```# Your app id get is from @usetgxbot or my.telegram.org
+APP_ID =
+
+# Your app hash get is from @usetgxbot or my.telegram.org
+API_HASH =
+
+# Your bot token get it from @botfather
+BOT_TOKEN =
+
+# Your telegram user id
+OWNER_ID =
+
+# Get this values from redislabs.com
+REDIS_URI =
+
+REDIS_PASS =```
