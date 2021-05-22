@@ -12,7 +12,7 @@
     "repository": "https://github.com/BotzCity/AccGenBot",
     "success_url": "https://telegram.dog/BotzCity",
     "env": {
-        "API_ID": {
+        "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTgxBot",
             "value": ""
         },
@@ -20,7 +20,7 @@
             "description": "Your Api Hash, Get it from my.telegram.org or @UseTgxBot",
             "value": ""
         },
-        "TOKEN": {
+        "BOT_TOKEN": {
             "description": "Your bot token, get it from @BotFather",
             "value": ""
         },
