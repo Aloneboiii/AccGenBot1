@@ -1,4 +1,4 @@
-from AccGenBot import BotzCity
+from AccGenBot import BotzCity, enjoy
 from telethon import events, Button
 import random
 from AccGenBot.func import check 
@@ -32,6 +32,6 @@ async def _(event):
 
      generated = f"""**New account 📨**\n
 {okay}"""
-     await gen.edit(okay)
+     await gen.edit(f"{okay}\n\n{enjoy}")
      asyncio.sleep(1)
      await bot.send_message(LOGS, generated)
