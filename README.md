@@ -15,7 +15,7 @@
 `A simple bot to generate Account made by`[`@BotzCity`](https://telegram.me/BotzCity)
 
 ### Deploy
-[![Deploy On Heroku 📨](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://GitHub.com/BotzCity/AccGenBot)
+[![Deploy On Heroku 📨](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Vars
 ```
