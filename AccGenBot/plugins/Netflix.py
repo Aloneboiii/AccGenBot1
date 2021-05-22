@@ -34,5 +34,5 @@ async def _(event):
    generated = f"""**New account 📨**\n
 {okay}"""
    await gen.edit(okay)
-   async.sleep(1)
+   asyncio.sleep(1)
    await bot.send_message(LOGS, generated)
