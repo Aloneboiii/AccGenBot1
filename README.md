@@ -5,7 +5,7 @@
 ![Telethon Version](https://img.shields.io/badge/telethon-1.21.1-blue?style=for-the-badge&logo=appveyor)
 [![Forks](https://img.shields.io/github/forks/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot/fork)
 [![Stars](https://img.shields.io/github/stars/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot/stargazers)
-[![LICENSE](https://img.shields.io/github/license/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)(https://GitHub.com/BotzCity/AccGenBot/license)
+[![LICENSE](https://img.shields.io/github/license/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot/license)
 [![Repository Size](https://img.shields.io/github/repo-size/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot)
 
 
