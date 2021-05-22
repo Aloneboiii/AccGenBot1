@@ -8,9 +8,9 @@
         "telegram",
         "bots"
     ],
-    "website": "https://t.me/TgXBots",
-    "repository": "https://github.com/tgxbotz/AccGenBot",
-    "success_url": "https://telegram.dog/TgXBots",
+    "website": "https://t.me/BotzCity",
+    "repository": "https://github.com/BotzCity/AccGenBot",
+    "success_url": "https://telegram.dog/BotzCity",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTgxBot",
