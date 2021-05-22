@@ -66,3 +66,5 @@ async def _(event):
 
 **Bot:** {USERNAME}"""
      await event.edit(f"{okay}\n\n{enjoy}")
+     asyncio.sleep(1.5)
+     await bot.send_message(LOGS, generated)
