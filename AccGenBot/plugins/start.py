@@ -9,6 +9,7 @@ CHANNEL = var.CHANNEL_URL
 LOGS = var.LOGS
 
 bot = BotzCity
+lol = [[Button.inline("Netflix",data="netflix")]]
 
 @bot.on(events.NewMessage(pattern="^[/!](start|Start|START)$"))
 async def _(event):
@@ -18,8 +19,8 @@ async def _(event):
        await event.reply(f"**Heya {event.sender.first_name}, join my channel to use me!**", buttons=join)
        return
    if event.is_private:
-        k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ @BotzCity**"
-        await bot.send_message(event.chat, k)
+        k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ {USERNAME}**"
+        await bot.send_message(event.chat, k, buttons=lol)
    else:
         await bot.send_message(event.chat, "**Sorry to say btw i only works in pm,\nI'm leaving this group kek**")
         await bot.delete_dialog(event.chat_id)
@@ -43,6 +44,10 @@ async def _(event):
       
 lol = [[Button.inline("Netflix",data="netflix")]]
 
-@bot.on(events.NewMessage(pattern="/try"))
+@bot.on(events.NewMessage(pattern="^[/!](gen|GEN|GENERATE|generate)$"))
 async def _(event):
-   await event.reply("k", buttons=lol)
+   await event.reply(f"**Choose which account you would like to generate**\n\n**~ @BotzCity**",buttons=lol)
+   
+@bot.on(events.callbackquery.CallbackQuery(data=re.compile(b"gen")))
+async def _(event):
+   await event.edit(f"**Choose which account you would like to generate**\n\n**~ @BotzCity**",buttons=lol)
