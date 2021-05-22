@@ -6,7 +6,7 @@
 [![Forks](https://img.shields.io/github/forks/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot/fork)
 [![Stars](https://img.shields.io/github/stars/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot/stargazers)
 ![LICENSE](https://img.shields.io/github/license/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)
-[![Repository Size](https://img.shields.io/github/repo-size/TgxBotz/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot)
+[![Repository Size](https://img.shields.io/github/repo-size/BotzCity/AccGenBot?style=for-the-badge&logo=appveyor)](https://GitHub.com/BotzCity/AccGenBot)
 
 
 **AccGenBot -** `A simple bot to generate Account made by`[`@BotzCity`](https://telegram.me/BotzCity)
