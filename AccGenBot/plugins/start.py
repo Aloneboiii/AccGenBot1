@@ -42,7 +42,7 @@ async def _(event):
       await bot.delete_dialog(event.chat_id)
 
       
-lol = [[Button.inline("Netflix", data="netflix"),("Voot", data="voot")]]
+lol = [[Button.inline("Netflix", data="netflix"),Button.inline("Voot", data="voot")]]
 
 @bot.on(events.NewMessage(pattern="^[/!](gen|GEN|GENERATE|generate)$"))
 async def _(event):
