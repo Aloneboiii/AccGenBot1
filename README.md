@@ -14,7 +14,8 @@
 **Deploy -** [`Deploy to heroku`](https://heroku.com/deploy?template=https://GitHub.com/BotzCity/AccGenBot)
 
 ## Vars
-```# Your app id get is from @usetgxbot or my.telegram.org
+```
+# Your app id get is from @usetgxbot or my.telegram.org
 APP_ID =
 
 # Your app hash get is from @usetgxbot or my.telegram.org
