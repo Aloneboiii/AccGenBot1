@@ -10,7 +10,7 @@ LOGS = var.LOGS
 
 bot = BotzCity
 
-@bot.on(events.NewMessage(pattern="^[/!]start|Start|START$"))
+@bot.on(events.NewMessage(pattern="^[/!](start|Start|START)$"))
 async def _(event):
    join = [[Button.url("Jᴏɪɴ ᴄʜᴀɴɴᴇʟ", f"{CHANNEL}")]]
    lol = await check(USERNAME, event, bot)
@@ -21,5 +21,21 @@ async def _(event):
         k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ @BotzCity**"
         await bot.send_message(event.chat, k)
    else:
-        await bot.send_message(event.chat, "Sorry to say btw i only works in pm, I'm leaving this group kek")
+        await bot.send_message(event.chat, "**Sorry to say btw i only works in pm,\nI'm leaving this group kek**")
         await bot.delete_dialog(event.chat_id)
+
+@bot.on(events.NewMessage(pattern="^[/!](help|cmds|commands|Help|HELP|CMDS|Cmds)$"))
+async def _(event):
+   if event.is_private:
+      k = """**Moi commands:**
+**/start** - Which you have already done / Send start message...!
+**/help** - List of all commands.
+**/cmds** - List of all commands.
+**/generate** - Get all commands for generating account..
+**/netflix** - To generate netflix account!
+**/voot** - To generate voot account!
+**/zee** - To generate Zee5 account!"""
+      await bot.send_message(event.chat, k)
+   else:
+      await bot.send_message(event.chat, "Use me only in PM not here!\n**Me leaving this group kek**")
+      await bot.delete_dialog(event.chat_id)
