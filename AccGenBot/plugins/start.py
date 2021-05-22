@@ -20,7 +20,7 @@ async def _(event):
        return
    if event.is_private:
         k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ {USERNAME}**"
-        await bot.send_message(event.chat, k, buttons=[[Button.inline("Generate",data="gen")]])
+        await bot.send_message(event.chat, k, buttons=[[Button.inline("Generate",data="gen"),Button.url("Channel","t.me/BotzCity")]],[[Button.url("Support",f"t.me/BotzCityChat}")]])
    else:
         await bot.send_message(event.chat, "**Sorry to say btw i only works in pm,\nI'm leaving this group kek**")
         await bot.delete_dialog(event.chat_id)
