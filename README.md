@@ -13,7 +13,7 @@
 
 **AccGenBot -** `A simple bot to generate Account made by`[`@BotzCity`](https://telegram.me/BotzCity)
 
-**Deploy -** [`Deploy to heroku`](https://heroku.com/deploy?template=https://GitHub.com/BotzCity/AccGenBot)
+**Deploy -** [https://www.herokucdn.com/deploy/button.svg](https://heroku.com/deploy?template=https://GitHub.com/BotzCity/AccGenBot)
 
 ## Vars
 ```
