@@ -28,13 +28,7 @@ API_HASH =
 # Your bot token get it from @botfather
 BOT_TOKEN =
 
-# Your telegram user id
-OWNER_ID =
 
-# Get this values from redislabs.com
-REDIS_URI =
-
-REDIS_PASS =
 ```
 ## Support Chat
 [![Telegram](https://img.shields.io/badge/BotzCityChat-1b77FF.svg?style=for-the-badge&logo=BotzCityChat)](https://t.me/BotzCityChat)
