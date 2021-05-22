@@ -39,3 +39,10 @@ async def _(event):
    else:
       await bot.send_message(event.chat, "Use me only in PM not here!\n**Me leaving this group kek**")
       await bot.delete_dialog(event.chat_id)
+
+      
+lol = [[Button.inline("Netflix",data="netflix")]]
+
+@bot.on(events.NewMessage(pattern="/try"))
+async def _(event):
+   await event.reply("k", buttons=lol)
