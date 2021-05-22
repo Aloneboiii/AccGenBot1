@@ -20,7 +20,7 @@ async def _(event):
        return
    if event.is_private:
         button = [[Button.inline("Generate Accounts",data="gen"), Button.url("Channel","t.me/BotzCity")]]
-        button += [[Button.url("Support",t.me/BotzCityChat")]]
+        button += [[Button.url("Support","t.me/BotzCityChat")]]
         k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ {USERNAME}**"
         await bot.send_message(event.chat, k, buttons=button)
    else:
