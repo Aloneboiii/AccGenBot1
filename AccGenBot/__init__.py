@@ -12,3 +12,5 @@ BOT_TOKEN = var.BOT_TOKEN
 
 
 BotzCity = TelegramClient('BotzCity', APP_ID, API_HASH).start(bot_token=BOT_TOKEN)
+
+enjoy = "**Made with ❤️ by @BotzCity**"
