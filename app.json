@@ -1,6 +1,6 @@
 {
-    "name": "AccGenBot Source",
-    "description": "A Multi AccGenBot Source Code written on Python.",
+    "name": "AccGenBot",
+    "description": "A Multi AccGenBot Source Code written on Python & Telethon.",
     "logo": "https://telegra.ph/file/6445aa2c56d0b07025f76.jpg",
     "keywords": [
         "Account",
