@@ -28,7 +28,14 @@ API_HASH =
 # Your bot token get it from @botfather
 BOT_TOKEN =
 
+# Your telegram channel username
+CHANNEL_USERNAME =
 
+# Your telegram channel url for force subscribe
+CHANNEL_URL =
+
+# Log channel ID
+LOGS =
 ```
 ## Support Chat
 [![Telegram](https://img.shields.io/badge/BotzCityChat-1b77FF.svg?style=for-the-badge&logo=BotzCityChat)](https://t.me/BotzCityChat)
