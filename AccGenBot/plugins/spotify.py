@@ -39,7 +39,7 @@ async def _(event):
      asyncio.sleep(1.5)
      await bot.send_message(LOGS, generated)
 
-@bot.on(events.callbackquery.CallbackQuery(data=re.compile(b"zee")))
+@bot.on(events.callbackquery.CallbackQuery(data=re.compile(b"spotify")))
 async def _(event):
    join = [[Button.url("Jᴏɪɴ ᴄʜᴀɴɴᴇʟ", f"{CHANNEL}")]]
    lol = await check(USERNAME, event, bot)
