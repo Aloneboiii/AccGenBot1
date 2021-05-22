@@ -1,5 +1,5 @@
 # AccGenBot
 
-**AccGenBot -** `A simple bot to generate Account made by`[`@BotzCity`](t.me/BotzCity)
+**AccGenBot -** `A simple bot to generate Account made by`[`@BotzCity`](https://telegram.me/BotzCity)
 
-**Deploy -** [`Deploy to heroku`](heroku.com/deploy)
+**Deploy -** [`Deploy to heroku`](https://heroku.com/deploy)
