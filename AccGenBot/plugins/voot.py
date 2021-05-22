@@ -3,7 +3,7 @@ from telethon import events, Button
 import random
 from AccGenBot.func import check 
 from vars import var
-import asyncio
+import asyncio, re, os
 
 USERNAME = var.CHANNEL_USERNAME
 CHANNEL = var.CHANNEL_URL
