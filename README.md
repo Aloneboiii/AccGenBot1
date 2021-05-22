@@ -30,4 +30,5 @@ OWNER_ID =
 # Get this values from redislabs.com
 REDIS_URI =
 
-REDIS_PASS =```
+REDIS_PASS =
+```
