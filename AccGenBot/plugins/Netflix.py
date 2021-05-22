@@ -22,7 +22,7 @@ async def _(event):
      noice = Alain.read().splitlines()
      nice = random.choice(noice)
      email, pas = nice.split(":")
-     okay = f"""**Account Generated Successfully**
+     okay = f"""**Account Generated Successfully**\n
 **Type:** `Netflix`
 **Combo:** `{email}`:`{pas}`
 **Email:** **{email}**
