@@ -10,7 +10,7 @@ CHANNEL = var.CHANNEL_URL
 LOGS = var.LOGS
 bot = BotzCity
 
-@bot.on(events.NewMessage(pattern="^[/!]voot"))
+@bot.on(events.NewMessage(pattern="^[/!](voot|VOOT)"))
 async def _(event):
    join = [[Button.url("Jᴏɪɴ ᴄʜᴀɴɴᴇʟ", f"{CHANNEL}")]]
    lol = await check(USERNAME, event, bot)
