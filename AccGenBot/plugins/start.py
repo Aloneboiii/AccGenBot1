@@ -6,7 +6,7 @@ from vars import var
 
 USERNAME = var.CHANNEL_USERNAME
 CHANNEL = var.CHANNEL_URL
-#
+
 LOGS = var.LOGS
 
 bot = BotzCity
@@ -27,6 +27,13 @@ async def _(event):
         await bot.send_message(event.chat, "**Sorry to say btw i only works in pm,\nI'm leaving this group kek**")
         await bot.delete_dialog(event.chat_id)
 
+@bot.on(events.callbackquery.CallbackQuery(data=re.compile(b"start")))
+async def _(event):
+    button = [[Button.inline("Generate Accounts",data="gen"), Button.url("Channel","t.me/BotzCity")]]
+    button += [[Button.url("Support","t.me/BotzCityChat")]]
+    k = f"**Heya {event.sender.first_name}, You can generate accounts by using this bot\nUse /cmds or /help to check my commands\n\nDon't forget to join my channel\n\n~ {USERNAME}**"
+    await event.edit(k, buttons=button)
+
 @bot.on(events.NewMessage(pattern="^[/!](help|cmds|commands|Help|HELP|CMDS|Cmds)$"))
 async def _(event):
    if event.is_private:
@@ -46,7 +53,7 @@ async def _(event):
       
 lol = [[Button.inline("Netflix", data="netflix"),Button.inline("Voot", data="voot")]]
 lol += [[Button.inline("Zee5",data="zee"), Button.inline("Spotify", data="spotify")]]
-lol += [[Button.inline("Alt Balaji", data="balaji"), Button.inline("⬅️ Back", data="gen")]]
+lol += [[Button.inline("Alt Balaji", data="balaji"), Button.inline("⬅️ Back", data="start")]]
 
 @bot.on(events.NewMessage(pattern="^[/!](gen|GEN|GENERATE|generate)$"))
 async def _(event):
