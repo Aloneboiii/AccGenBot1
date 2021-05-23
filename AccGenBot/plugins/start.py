@@ -46,6 +46,7 @@ async def _(event):
       
 lol = [[Button.inline("Netflix", data="netflix"),Button.inline("Voot", data="voot")]]
 lol += [[Button.inline("Zee5",data="zee"), Button.inline("Spotify", data="spotify")]]
+lol += [[Button.inline("Alt Balaji", data="balaji"), Button.inline("⬅️ Back", data="gen")]]
 
 @bot.on(events.NewMessage(pattern="^[/!](gen|GEN|GENERATE|generate)$"))
 async def _(event):
