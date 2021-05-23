@@ -37,7 +37,7 @@ async def _(event):
 @bot.on(events.NewMessage(pattern="^[/!](help|cmds|commands|Help|HELP|CMDS|Cmds)$"))
 async def _(event):
    if event.is_private:
-      k = """**Moi commands:**
+      k = """**Moi commands:**\n
 **/start** - Which you have already done / Send start message...!
 **/help** - List of all commands.
 **/cmds** - List of all commands.
