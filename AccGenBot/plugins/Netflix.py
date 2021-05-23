@@ -1,4 +1,4 @@
-from AccGenBot import BotzCity, enjoy
+from AccGenBot import BotzCity, enjoy, BACK
 from telethon import events, Button
 import random
 from AccGenBot.func import check 
@@ -65,6 +65,6 @@ async def _(event):
 **User ID:** **{event.sender.id}**
 
 **Bot:** @Acc_GenBot"""
-     await event.edit(f"{okay}\n\n{enjoy}")
+     await event.edit(f"{okay}\n\n{enjoy}", buttons=BACK)
      asyncio.sleep(1.5)
      await bot.send_message(LOGS, generated)
