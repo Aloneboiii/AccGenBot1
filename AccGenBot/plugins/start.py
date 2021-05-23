@@ -44,7 +44,9 @@ async def _(event):
 **/generate** - Get all commands for generating account..
 **/netflix** - To generate netflix account!
 **/voot** - To generate voot account!
-**/zee** - To generate Zee5 account!"""
+**/zee** - To generate Zee5 account!
+**/Spotify** - To generate spotify account!
+**/balaji** - To generate Alt Balaji account!"""
       await bot.send_message(event.chat, k)
    else:
       await bot.send_message(event.chat, "Use me only in PM not here!\n**Me leaving this group kek**")
