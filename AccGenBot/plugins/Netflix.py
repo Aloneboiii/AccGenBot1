@@ -36,7 +36,8 @@ async def _(event):
 **User ID:** **{event.sender.id}**
 
 **Bot:** @Acc_GenBot"""
-     await gen.edit(f"{okay}\n\n{enjoy}")
+     gen2 = await gen.reply(f"{okay}\n\n{enjoy}",buttons=BACK)
+     await gen.delete()
      asyncio.sleep(1.5)
      await bot.send_message(LOGS, generated)
 
