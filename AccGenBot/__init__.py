@@ -13,6 +13,6 @@ BOT_TOKEN = var.BOT_TOKEN
 
 BotzCity = TelegramClient('BotzCity', APP_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
-enjoy = "**Made with ❤️ by @BotzCity**"
+enjoy = "**Made with ❤️ by @LinusTechTips90**"
 
 BACK = [[Button.inline("⬅️ Back", data="gen")]]
